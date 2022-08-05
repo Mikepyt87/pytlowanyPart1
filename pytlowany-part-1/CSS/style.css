@@ -1,0 +1,99 @@
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+header {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+h1 {
+    color: #20a8b4;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 3px 0px;
+    list-style-type: none;
+}
+
+li {
+    padding: 3px 0px;
+}
+
+li:hover {
+    color: #ff5c0f;
+    cursor: pointer;
+}
+
+#colorWord {
+    color: #ff5c0f;
+}
+
+button {
+    text-align: left;
+    background-color: #20a8b4;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+    cursor: pointer;
+}
+
+img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        align-items: center;
+    }
+
+    li {
+        padding: 0px 10px;
+    }
+
+    button {
+        align-self: center;
+        width: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10%;
+        align-items: center;
+    }
+
+    img {
+        display: flex;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10%;
+    }
+
+}
