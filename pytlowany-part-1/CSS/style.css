@@ -86,17 +86,21 @@ img {
         align-items: center;
     }
 
-    
-
     footer {
         display: flex;
         justify-content: flex-end;
         padding-top: 10%;
     }
+
     #codePic {
         height: 300px;
-        
+
         display: flex;
+    }
+
+    #gCLogo {
+        display: flex;
+        padding-right: 1%;
     }
 
 }
