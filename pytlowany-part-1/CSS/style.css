@@ -82,18 +82,21 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 10%;
+        padding: 5% 5% 0% 1%;
         align-items: center;
     }
 
-    img {
-        display: flex;
-    }
+    
 
     footer {
         display: flex;
         justify-content: flex-end;
         padding-top: 10%;
+    }
+    #codePic {
+        height: 300px;
+        
+        display: flex;
     }
 
 }
